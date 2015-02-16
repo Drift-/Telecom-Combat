@@ -1,0 +1,8 @@
+Name: Test World
+Description: An island world that was the first map ever made.
+
+Spawns:
+	Spawn: (4, 4)
+	Spawn: (4, 3)
+	Spawn: (7, 6)
+	Spawn: (5, 8)

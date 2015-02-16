@@ -1,0 +1,9 @@
+LargeCity: (45, 46) Detroit
+City: (35, 43) Lansing
+City: (41, 42) Flint
+LargeCity: (26, 42) Grand Rapids
+City: (30, 47) Battle Creek
+City: (41, 47) Ann Arbor
+City: (39, 35) Saginaw
+Town: (33, 35) Mt. Pleasant
+Town: (23, 39) Muskegon

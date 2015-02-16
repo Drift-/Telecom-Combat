@@ -1,0 +1,2 @@
+Name: Test World
+Description: An island world that was the first map ever made.

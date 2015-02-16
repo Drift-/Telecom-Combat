@@ -1,0 +1,4 @@
+City: (3, 3) Auburn
+LargeCity: (2, 8) Chelsea
+City: (6, 9) Dari
+Town: (6, 6) Welles
