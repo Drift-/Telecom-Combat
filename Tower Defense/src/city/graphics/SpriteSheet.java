@@ -11,6 +11,7 @@ public class SpriteSheet {
 	public BufferedImage sheet;
 	
 	public static SpriteSheet tilesheet = new SpriteSheet("/tilesheet.png");
+	public static SpriteSheet towers = new SpriteSheet("/towers.png");
 	
 	public SpriteSheet(String path) {
 		Image image = new ImageIcon(this.getClass().getResource(path)).getImage();

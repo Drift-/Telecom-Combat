@@ -7,6 +7,7 @@ public class Sprite {
 	public BufferedImage img;
 	
 	public static Sprite tower = new Sprite(SpriteSheet.tilesheet, 0, 0, 16);
+	public static Sprite ran_tower = new Sprite(SpriteSheet.towers, 0, 0, 16);
 	/*public static Sprite grass = new Sprite(SpriteSheet.tilesheet, 0, 0, 16);
 	public static Sprite forest = new Sprite(SpriteSheet.tilesheet, 1, 0, 16);
 	public static Sprite sand = new Sprite(SpriteSheet.tilesheet, 2, 0, 16);

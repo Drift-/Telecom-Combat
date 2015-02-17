@@ -59,10 +59,8 @@ public class MenuState {
 		g.drawImage(menu, TowerDefense.WIDTH/2 - menu.getWidth(null)*2, TowerDefense.WIDTH/20, menu.getWidth(null) * 4, menu.getHeight(null) * 4, null);
 		
 		//buttons
-			play.render(g);
-			exit.render(g);
-			g.setColor(Color.BLACK);
-			g.drawString("Loading...", TowerDefense.WIDTH/2 - (10*35)/4, 300);
+		play.render(g);
+		exit.render(g);
 	}
 
 }

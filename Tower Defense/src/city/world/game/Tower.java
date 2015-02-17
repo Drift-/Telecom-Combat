@@ -13,6 +13,7 @@ import city.graphics.Render;
 import city.graphics.Sprite;
 import city.graphics.fonts.CustomFont;
 import city.graphics.uiitems.UIButton;
+import city.graphics.uiitems.UIImageButton;
 import city.world.World;
 import city.world.hexmech;
 import city.world.city.City;
@@ -26,7 +27,8 @@ public class Tower {
 	public String owner;
 	
 	private Font font_20, font_15;
-	private UIButton back, def_0, def_1, def_2, def_3, def_4, def_5, def_6, def_7, def_8;
+	private UIImageButton def_0;
+	private UIButton back, def_1, def_2, def_3, def_4, def_5, def_6, def_7, def_8;
 	
 	public boolean selected = false;
 	
@@ -38,7 +40,7 @@ public class Tower {
 		this.owner = owner;
 		addCities();
 		back = new UIButton(TowerDefense.WIDTH - 175, TowerDefense.HEIGHT - 85, 150, 35, "Back", 20);
-		def_0 = new UIButton(TowerDefense.WIDTH - 153, 120, 30, 30, "", 15);
+		def_0 = new UIImageButton(TowerDefense.WIDTH - 153, 120, 30, 30, Sprite.ran_tower);
 		def_1 = new UIButton(TowerDefense.WIDTH - 118, 120, 30, 30, "", 15);
 		def_2 = new UIButton(TowerDefense.WIDTH - 83, 120, 30, 30, "", 15);
 		def_3 = new UIButton(TowerDefense.WIDTH - 153, 155, 30, 30, "", 15);
@@ -77,7 +79,6 @@ public class Tower {
 	}
 	
 	public int getMoneyPT() {
-		double money = 0.0;
 		for (City c : World.cities) {
 			int x_diff = c.x - x;
 			if (x_diff < size + 1 && x_diff > (-1*(size) - 1)) {
