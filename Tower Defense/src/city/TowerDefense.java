@@ -101,7 +101,7 @@ public class TowerDefense extends Canvas implements Runnable{
 				
 				while(true) {
 					try {
-						Thread.sleep(20);
+						Thread.sleep(0);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
@@ -161,7 +161,7 @@ public class TowerDefense extends Canvas implements Runnable{
 	public void render(int fps) {
 		bs = getBufferStrategy();
 		if(bs == null) {
-			createBufferStrategy(3);
+			createBufferStrategy(2);
 			bs = getBufferStrategy();
 		}
 		g = bs.getDrawGraphics();

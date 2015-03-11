@@ -211,7 +211,7 @@ public class Tower {
 			int y_dis = Math.abs(ran[i][1] - ran[i + 1][1]);
 			for (int j = 0; j < y_dis; j++) {
 				if (tiles[ran[i][0] + (dis * lr)][ran[i][1] + (j * y_lr)] != "^" && tiles[ran[i][0] + (dis * lr)][ran[i][1] + (j * y_lr)] != ";" && tiles[ran[i][0] + (dis * lr)][ran[i][1] + (j * y_lr)] != "'") {
-					if (j != y_dis - 1 && j != 0) {
+					if (j != 0) {
 						generateLand();
 						return;
 					}
